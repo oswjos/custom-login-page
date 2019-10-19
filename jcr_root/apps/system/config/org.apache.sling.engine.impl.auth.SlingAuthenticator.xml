@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    auth.annonymous="{Boolean}false"
+    auth.http.realm="Sling (Development)"
+    auth.sudo.cookie="sling.sudo"
+    auth.sudo.parameter="sudo"
+    auth.uri.suffix="[/j_security_check]"
+    osgi.http.whiteboard.context.select="(osgi.http.whiteboard.context.name=*)"
+    osgi.http.whiteboard.listener="true"
+    sling.auth.anonymous.password=""
+    sling.auth.anonymous.user=""
+    sling.auth.requirements="[+/,-/apps/granite/core/content/login,-/libs/granite/core/content/login,-/etc.clientlibs,-/etc/clientlibs/granite,-/libs/dam/remoteassets/content/loginerror]"/>
