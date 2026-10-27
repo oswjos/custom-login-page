@@ -1,3 +1,5 @@
+> **Maintenance notice:** This repository is unmaintained and contains outdated dependencies. It is preserved for reference and is not recommended for production use.
+
 # custom-login-page
 How to customize the AEM Login page.
 
